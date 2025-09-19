@@ -1,0 +1,9 @@
+streamlit>=1.20.0
+pypdf>=3.0.0
+transformers>=4.40.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4   # or faiss-gpu if you have GPU and want faster indexing
+torch>=2.0.0       # CPU or GPU build depending on your machine
+sqlite-utils>=3.38
+tqdm
+python-dotenv
